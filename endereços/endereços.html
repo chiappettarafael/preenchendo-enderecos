@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Comprar - Doces4Me</title>
+    </head>
+    <body>
+        <nav><h1>Doces4Me</h1></nav>
+        
+        <main class="content">
+            <form method="get">
+                <h2> Seu endereço </h2>
+                
+                <div>
+                    <label>UF</label>
+                    <select id="estados" name="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+            <div>
+                <label>Cidade</label>
+                <input type="text" name="cidade" placeholder="digite sua cidade">
+            </div>
+            <div>
+                <label>Bairro</label>
+                <input type="text" name="bairro" placeholder="digite seu bairro">
+            </div>
+            <div>
+                <label>Rua</label>
+                <input type="text" name="rua" placeholder="digite sua rua">
+            </div>
+            
+            <div>
+                <label>Número</label>
+                <input min='0' type="number" name="numero" placeholder="digite seu número">
+            </div>
+
+            <br />
+            <div>
+                <label>O endereço de entrega é o mesmo de cobrança</label>
+                <input type="checkbox" name="entrega"> 
+                <br />
+            </div>
+            <button type="submit">Incluir endereço</button>
+        </form>
+    </main>
+</body>
+</html>
